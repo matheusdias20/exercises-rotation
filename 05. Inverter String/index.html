@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+        <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+        <title>Inverter String</title>
+        <link rel="shortcut icon" href="assets/img/reverse.png" type="image/x-icon">
+
+    </head>
+    <body>  
+        <main class="main" id="main">
+
+            <div class="main__text">
+                <h1 class="main__title">Invertendo os caracteres de uma string</h1>
+            </div>
+
+            <div class="input__container">
+                <div class="input__one">
+                    <label for="input">Digite uma palavra:</label>
+                    <input type="text" id="input"><br><br>
+
+                </div>
+                <div class="input__two">
+                    <label for="output">A palavra invertida fica:</label>
+                    <input type="text" id="output" disabled>
+                </div>
+                <button onclick="reverseString()">
+                    Inverter
+                    <i class="ph ph-arrows-clockwise"></i>
+                </button>
+            </div>
+        </main>
+
+
+
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>

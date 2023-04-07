@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+        <title>Faturamento Mensal</title>
+        <link rel="shortcut icon" href="assets/img/percentage.png" type="image/x-icon">
+    </head>
+    <body>
+        <main class="main" id="main">
+            <h1 class="main__title">Faturamento mensal</h1>
+            <span class="main__subtitle">Percentual de representação que cada estado teve dentro do valor total mensal da distribuidora</span>
+
+            <div class="content">
+
+                <table class="table" id="data">
+                    <tr>
+                        <th>Estado</th>
+                        <th>Faturamento Mensal</th>
+                        <th>Percentage</th>
+                    </tr>
+                    <tr>
+                        <td>São Paulo</td>
+                        <td>R$ 67.836,43</td>
+                        <td class="percentual" id="sp"></td>
+                    </tr>
+                    <tr>
+                        <td>Rio de Janeiro</td>
+                        <td>R$ 36.678,66</td>
+                        <td class="percentual" id="rj"></td>
+                    </tr>
+                    <tr>
+                        <td>Minas Gerais</td>
+                        <td>R$ 29.229,88</td>
+                        <td class="percentual" id="mg"></td>
+                    </tr>
+                    <tr>
+                        <td>Espírito Santo</td>
+                        <td>R$ 27.165,48</td>
+                        <td class="percentual" id="es"></td>
+                    </tr>
+                    <tr>
+                        <td>Outros</td>
+                        <td>R$ 19.849,53</td>
+                        <td class="percentual" id="others"></td>
+                    </tr>
+                </table>
+
+
+            </div>
+
+        </main>
+        
+    <script src="assets/js/script.js"></script>
+    </body>
+</html>
