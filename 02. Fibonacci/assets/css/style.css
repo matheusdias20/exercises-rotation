@@ -56,14 +56,15 @@ body {
 .main__form input {
     width: 100%;
     background-color: transparent;
-    border: 1px solid #C4C4C4;
+    padding-left: 1rem;
 
+    border: 1px solid #C4C4C4;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
 }
   
 button {
-    padding: 5px 10px;
+    padding: 1rem;
     font-size: 16px;
     background-color: #094044;
     color: #fff;
